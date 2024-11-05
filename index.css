@@ -1,0 +1,51 @@
+body{
+    color: #ccff65;
+    background: linear-gradient(43deg, rgb(18 76 30) 0%, rgb(45 69 184) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    flex-direction: column;
+}
+.inp{
+    
+    border-radius: 10px;
+    padding: 2%;
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+    letter-spacing: 1.3rem;
+
+    background-image: url("https://img.freepik.com/free-vector/christmas-snowy-background_1048-9078.jpg");
+}
+.width{
+    width:60%;
+}
+.inpN{
+    background-color: #161692;
+    border: 1px solid #1cff1c;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.cm{
+    width: 100%;
+}
+.cm img{
+    height: 3rem;
+}
+a:hover{
+    color:white
+}
